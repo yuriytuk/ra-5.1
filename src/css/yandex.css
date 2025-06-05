@@ -1,0 +1,135 @@
+.container {
+    /* Корневой блок, в котором находятся остальные блоки. */
+    border: 1px solid black;
+    min-height: 600px;
+    height: auto;
+    max-width: 900px;
+    width: 900px;
+    /*display: flex;*/
+}
+
+/* блок для новостей и ошибок */
+.news_mistake {
+    width: 780px;
+    height: 175px;
+    /*border: 1px solid red;*/
+    margin-left: 100px;
+    display: flex;
+    text-align: center;
+}
+
+.news_money {
+    width: 480px;
+    height: 170px;
+    /*border: 1px solid red;*/
+}
+
+/* новости */
+.news {
+    width: 480px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+/* деньги */
+.money {
+    width: 480px;
+    height: 20px;
+    border: 1px solid red;
+}
+/* блок для ошибок */
+.mistake {
+    width: 230px;
+    height: 135px;
+    margin-top: 30px;
+    margin-left: 65px;
+    border: 1px solid red;
+}
+
+/* общий блок для поиска*/ 
+.searh_div {
+    display: inline-block;
+}
+
+/* логотип яндекса */
+.logo_yandex {
+  width: 105px;
+  height: 45px;
+  margin-top: 50px;
+  background-image: url('../img/yandex-logo.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  /*border: 1px solid red;*/
+}
+
+/* статьи по каталогу */
+.theme_catalog {
+    width: 550px;
+    height: 25px;
+    margin-top: 30px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+/* Поиск на сайте */
+.search_yandex {
+    width: 720px;
+    height: 60px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.reklama {
+    width: 640px;
+    height: 80px;
+    margin-left: 106px;
+    margin-top: 23px;
+    background-image: url('../img/i.png');
+    /*background-repeat: no-repeat;*/
+    background-size: contain;
+}
+
+.catalog {
+    display: grid;
+    width: 770px;
+    height: 190px;
+    grid-template-columns: repeat(3, 1fr); /* три равные колонки */
+    gap: 10px; /* необязательный отступ между колонками */
+    border: 1px solid #ccc;
+    margin-top: 30px;
+    margin-left: 105px;
+    text-align: center;
+}
+
+/* погода */
+.weather {
+    height: 65px;
+    border: 1px solid blue;
+}
+
+/* популярные статьи*/
+.popular_articles {
+    margin-top: 10px;
+    height: 95px;
+    border: 1px solid blue;
+}
+
+/* карта страны */
+.country_map {
+    height: 50px;
+    border: 1px solid blue;
+}
+
+/* выбор программы по ТВ */
+.tv_program {
+    margin-top: 10px;
+    height: 100px;
+    border: 1px solid blue;
+}
+
+/* программы по ТВ в эфире */
+.tv_program_on {
+    height: 95px;
+    border: 1px solid blue;
+}

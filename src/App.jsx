@@ -1,10 +1,10 @@
 import React from 'react';
-import './App.css';
-import Card from './component/Card';
+import './css/yandex.css';
+import Yandex from './component/Yandex';
 
 function App() {
   return (
-    <Card />
+    <Yandex />
   )
 }
 
