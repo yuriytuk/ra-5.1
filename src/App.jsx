@@ -1,10 +1,15 @@
-import React from 'react';
-import './css/yandex.css';
-import Yandex from './component/Yandex';
+import React from 'react'
+import './App.css';
+import Training from './component/Training';
 
 function App() {
+  
   return (
-    <Yandex />
+    <div>
+      <Training 
+        
+      />
+    </div>
   )
 }
 
